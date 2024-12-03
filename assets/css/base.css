@@ -1,0 +1,42 @@
+:root{
+    --white-color:#fff;
+    --black-color:#333;
+    --gray-color:#7B7B7B;
+    --ocean-blue-color:#42A7C2;
+    --milk-color:#EAF1F7;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+
+}
+
+/* Responsive */
+.grid{
+    
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 20%;
+    
+}
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 80%;
+    height: 24px;
+
+}
